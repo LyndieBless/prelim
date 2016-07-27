@@ -1,11 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>sample layout</title>
-
-<style type="text/css">
-<!--
 body {
     background-image: fixed;
     background-attachment: fixed;
@@ -15,6 +7,7 @@ body {
     font-family: Arial, 'Lucida Sans Unicode';
     text-align: left;
 }
+
 .logo {
     font-family: Arial, Heltivica, sans-serif;
     font-size: 35px;
@@ -27,7 +20,6 @@ body {
     text-align: left;
     letter-spacing: -2px;
     width: 100%;
-   
 }
 
 .punchline {
@@ -37,60 +29,53 @@ body {
     color: #c69c6d;
     padding-left: 20px;
     padding-top: -5px;
-    
 }
+
 a {
     text-decoration: none;
-   
 }
+
 a:link, a:visited{
     color: #ff8c00;
 }
+
 a:hover, a:active{
     background-color: #ff8c00;
-    color: #fff;
-    
+    color: #fff;   
 }
+
 .body {
     margin: 0 auto;
     width: 70px;
     clear: both;
 }
+
 .mainHeader img {
     width: 100px;
     height: auto;
     margin-top: 2%;
     margin-bottom: 0;
 }
+
 .mainHeader nav {
     background-color: #2f4f4f;
     height: 40px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-raduis: 5px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    
+    margin-bottom: 0;
+    margin-top: 0;   
 }
--->
-</style>
-</head>
 
-<body>
-    <div id="wrapper">
-      <div id="header">
-        <div id="logo"></div>
-        <div id="banner"></div>
-        <div id="nav"></div>
-       
-      </div>
-      <div id="content">
-        <div id="categories"></div>
-        <div id="topcontent"></div>
-        <div id="bottomcontent"></div>
-      </div>       
-      <div id="footer"></div>
-    </div>
-    
-</body>
-</html>
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+}
+.mainHeader
+
+
