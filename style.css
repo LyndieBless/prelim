@@ -154,7 +154,7 @@ a:hover, a:active{
 }
 .bottom-sidebar{
     width: 23%;
-    float: left;
+    float: right;
     background-color: #FFF;
     border-radius: 5PX;
     -moz-border-radius: 5px;
@@ -180,5 +180,18 @@ a:hover, a:active{
     width: 92%;
     margin: 10px;
     color: #fff;
+    
+}
+.aboutcontent {
+    width: 98%;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 1%;
+    margin-bottom: 1%;
+    
+   
     
 }
